@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    width: 100%;
+}
+
+.content img{
+    width: 100%;
+}
+
+
+.content_2{
+ 
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    margin-top: 36px;
+}
+.text_center h2{
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    margin-top: 18px;
+    background: green;
+    width: 172px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    position: absolute;
+    left: 45%;
+   
+}
+@media(max-width:768px){
+    .btn{
+        position: absolute;
+        left: 30%;
+    }
+}
